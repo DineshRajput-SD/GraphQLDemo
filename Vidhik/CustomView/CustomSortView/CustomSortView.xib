@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomSortView" customModule="Vidhik" customModuleProvider="target">
+            <connections>
+                <outlet property="btnJudgeBench" destination="daT-7S-hOZ" id="WaP-Ag-YoQ"/>
+                <outlet property="btnMostCited" destination="QaD-i8-sFm" id="FDL-YE-TIb"/>
+                <outlet property="btnRecent" destination="moP-hl-VMu" id="Cw3-M2-hUw"/>
+                <outlet property="btnRelevance" destination="Ki0-mF-RjD" id="atU-8h-OPa"/>
+                <outlet property="viewSort" destination="pBJ-d2-Bge" id="9zv-wZ-bzg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="173" height="204"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBJ-d2-Bge">
+                    <rect key="frame" x="0.0" y="0.0" width="173" height="204"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1LR-Pl-nrk">
+                            <rect key="frame" x="12" y="12" width="149" height="180"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moP-hl-VMu">
+                                    <rect key="frame" x="0.0" y="0.0" width="149" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="Z1C-zC-7Z8"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    <color key="tintColor" name="SolidGrey"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Recent">
+                                        <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="btnRecentAction:" destination="-1" eventType="touchUpInside" id="BXI-f6-K8R"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ki0-mF-RjD">
+                                    <rect key="frame" x="0.0" y="45" width="149" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="eVw-PN-pNv"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    <color key="tintColor" name="SolidGrey"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Relevance">
+                                        <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="btnRelevanceAction:" destination="-1" eventType="touchUpInside" id="Lq2-hn-8JY"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaD-i8-sFm">
+                                    <rect key="frame" x="0.0" y="90" width="149" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="SMt-2b-j89"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    <color key="tintColor" name="SolidGrey"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Most Cited">
+                                        <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="btnMostCitedAction:" destination="-1" eventType="touchUpInside" id="emd-En-Zl1"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daT-7S-hOZ">
+                                    <rect key="frame" x="0.0" y="135" width="149" height="45"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="QjO-wh-NTS"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    <color key="tintColor" name="SolidGrey"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Judge Bench">
+                                        <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="btnJudgeBenchAction:" destination="-1" eventType="touchUpInside" id="B3U-9j-EhG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="1LR-Pl-nrk" firstAttribute="top" secondItem="pBJ-d2-Bge" secondAttribute="top" constant="12" id="9k7-cV-2Ah"/>
+                        <constraint firstAttribute="trailing" secondItem="1LR-Pl-nrk" secondAttribute="trailing" constant="12" id="Df3-hq-swM"/>
+                        <constraint firstAttribute="bottom" secondItem="1LR-Pl-nrk" secondAttribute="bottom" constant="12" id="J28-5d-ftG"/>
+                        <constraint firstItem="1LR-Pl-nrk" firstAttribute="leading" secondItem="pBJ-d2-Bge" secondAttribute="leading" constant="12" id="goA-wC-Cmb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pBJ-d2-Bge" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="FEA-mR-qFg"/>
+                <constraint firstItem="pBJ-d2-Bge" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ayD-EM-mOE"/>
+                <constraint firstItem="pBJ-d2-Bge" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fk7-tW-oh3"/>
+                <constraint firstAttribute="bottom" secondItem="pBJ-d2-Bge" secondAttribute="bottom" id="zJP-vB-GrY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="46.564885496183201" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="SolidGrey">
+            <color red="0.15700000524520874" green="0.15700000524520874" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ScheduleFooterCell" id="gTV-IL-0wX" customClass="ScheduleFooterCell" customModule="Vidhik" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="56"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FjV-4e-kJT">
+                        <rect key="frame" x="0.0" y="0.0" width="417" height="56"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1q-7F-SKe">
+                                <rect key="frame" x="20" y="8" width="377" height="40"/>
+                                <color key="backgroundColor" name="SolidBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="tpv-Kh-23M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Make Payment">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="makePaymentButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="zci-6a-AsM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Z1q-7F-SKe" secondAttribute="trailing" constant="20" id="Iim-6A-TJY"/>
+                            <constraint firstItem="Z1q-7F-SKe" firstAttribute="centerY" secondItem="FjV-4e-kJT" secondAttribute="centerY" id="RYT-it-Oh4"/>
+                            <constraint firstItem="Z1q-7F-SKe" firstAttribute="leading" secondItem="FjV-4e-kJT" secondAttribute="leading" constant="20" id="aWd-RP-Knh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="FjV-4e-kJT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rj2-O4-iRV"/>
+                <constraint firstAttribute="trailing" secondItem="FjV-4e-kJT" secondAttribute="trailing" id="l90-in-nOv"/>
+                <constraint firstAttribute="bottom" secondItem="FjV-4e-kJT" secondAttribute="bottom" id="oGD-La-NBW"/>
+                <constraint firstItem="FjV-4e-kJT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wpd-hO-Fhi"/>
+            </constraints>
+            <size key="customSize" width="417" height="56"/>
+            <point key="canvasLocation" x="310.68702290076334" y="8.4507042253521139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="SolidBlue">
+            <color red="0.18000000715255737" green="0.35699999332427979" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

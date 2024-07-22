@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InboxTableViewCell" rowHeight="80" id="KGk-i7-Jjw" customClass="InboxTableViewCell" customModule="Vidhik" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SpC-ZD-OaM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DummyImage 1" translatesAutoresizingMaskIntoConstraints="NO" id="SWE-pu-8jX">
+                                <rect key="frame" x="22" y="19" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="ZYC-a3-4xf"/>
+                                    <constraint firstAttribute="height" constant="42" id="xYJ-TH-nl1"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="AdT-bp-SfA">
+                                <rect key="frame" x="80" y="21.666666666666668" width="184" height="36.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anil Soni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHg-8M-oJc">
+                                        <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="19.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No problem! Let me know if..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNC-BI-27j">
+                                        <rect key="frame" x="0.0" y="19.666666666666668" width="171.66666666666666" height="17.000000000000004"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTV-fZ-gWP">
+                                <rect key="frame" x="280" y="30" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="1Pr-Ok-MXC"/>
+                                    <constraint firstAttribute="width" constant="20" id="yBC-lh-zKD"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ThreeDot"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG7-OU-lZb">
+                                <rect key="frame" x="0.0" y="79" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Gdh-BL-26H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AdT-bp-SfA" firstAttribute="leading" secondItem="SWE-pu-8jX" secondAttribute="trailing" constant="16" id="07l-7Z-dcs"/>
+                            <constraint firstItem="AdT-bp-SfA" firstAttribute="centerY" secondItem="SWE-pu-8jX" secondAttribute="centerY" id="5gB-aD-fyI"/>
+                            <constraint firstItem="pTV-fZ-gWP" firstAttribute="leading" secondItem="AdT-bp-SfA" secondAttribute="trailing" constant="16" id="6yO-Ms-ASD"/>
+                            <constraint firstItem="pTV-fZ-gWP" firstAttribute="centerY" secondItem="SpC-ZD-OaM" secondAttribute="centerY" id="CGR-hk-qU0"/>
+                            <constraint firstItem="SWE-pu-8jX" firstAttribute="leading" secondItem="SpC-ZD-OaM" secondAttribute="leading" constant="22" id="Gml-Zc-6yX"/>
+                            <constraint firstAttribute="bottom" secondItem="SWE-pu-8jX" secondAttribute="bottom" constant="19" id="I6u-FW-HCl"/>
+                            <constraint firstAttribute="trailing" secondItem="QG7-OU-lZb" secondAttribute="trailing" id="Mn5-ve-MEf"/>
+                            <constraint firstAttribute="bottom" secondItem="QG7-OU-lZb" secondAttribute="bottom" id="a5o-gy-NL6"/>
+                            <constraint firstItem="QG7-OU-lZb" firstAttribute="leading" secondItem="SpC-ZD-OaM" secondAttribute="leading" id="jN2-gU-yDj"/>
+                            <constraint firstItem="SWE-pu-8jX" firstAttribute="top" secondItem="SpC-ZD-OaM" secondAttribute="top" constant="19" id="nhp-bv-JyT"/>
+                            <constraint firstAttribute="trailing" secondItem="pTV-fZ-gWP" secondAttribute="trailing" constant="20" id="yfl-9t-5bq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SpC-ZD-OaM" secondAttribute="bottom" id="Enr-sk-Oqt"/>
+                    <constraint firstItem="SpC-ZD-OaM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="STI-5g-i7j"/>
+                    <constraint firstItem="SpC-ZD-OaM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Xvz-sC-fkV"/>
+                    <constraint firstAttribute="trailing" secondItem="SpC-ZD-OaM" secondAttribute="trailing" id="wyx-4H-kun"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnMoreOptions" destination="pTV-fZ-gWP" id="IBz-7E-VzJ"/>
+                <outlet property="imgProfilePhoto" destination="SWE-pu-8jX" id="KsL-mi-irp"/>
+                <outlet property="lblMessage" destination="tNC-BI-27j" id="VnS-4o-3tW"/>
+                <outlet property="lblName" destination="rHg-8M-oJc" id="AWk-eN-cd8"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="32.394366197183103"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DummyImage 1" width="39.666667938232422" height="40"/>
+        <image name="ThreeDot" width="4.6666665077209473" height="16.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

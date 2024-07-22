@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1F8E18D-6A08-4637-BA08-800A3DA81591"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "237762E1-3A8A-4F53-8531-3967F98B5610"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/TabBar/Feed/ViewController/FeedVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "lawyerPostActivity(lawyerId:title:description:likeCount:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A731241-F544-49CD-AF88-C949613CFE15"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "accountCretaionAPICalling(name:phoneNumber:isPrimaryContactWhatsapp:secondaryContact:isSecondaryContactWhatsapp:address:city:state:email:password:confirmPassword:image:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71962DA5-0D34-4DDE-A3C7-6D081D8DF7AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
+            landmarkName = "createAccountApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3E3F92E-C75C-4FD0-8223-C83222205815"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
+            landmarkName = "createAccountApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58731141-1A6E-4FEE-AC01-4B47E46F03BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/GraphQLNetworkSetUp/GraphQLEndPoints/Accounts/Users/AccountCreation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "selections"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E274327-B650-4DA4-8CDE-5F0E31B2E166"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/GraphQLNetworkSetUp/GraphQLEndPoints/Accounts/Users/AccountCreation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "variables"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B828D92-CCAD-4A70-8391-FB67DD38CD56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "userAccountCreation(name:phoneNumber:isPrimaryContactWhatsapp:secondaryContact:isSecondaryContactWhatsapp:address:city:state:email:password:confirmPassword:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B828D92-CCAD-4A70-8391-FB67DD38CD56 - d797edb4ceea7a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;Vidhik.UserAccountCreationMutation.Data&gt;, Swift.Error&gt;) -&gt; () in Vidhik.CreateAccountVM.userAccountCreation(name: Swift.String, phoneNumber: Swift.String, isPrimaryContactWhatsapp: Swift.Bool, secondaryContact: Swift.String, isSecondaryContactWhatsapp: Swift.Bool, address: Swift.String, city: Swift.String, state: Swift.String, email: Swift.String, password: Swift.String, confirmPassword: Swift.String, callback: (Vidhik.ResponseType, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300">
+               </Location>
+               <Location
+                  uuid = "0B828D92-CCAD-4A70-8391-FB67DD38CD56 - d797edb4ceea7a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;Vidhik.UserAccountCreationMutation.Data&gt;, Swift.Error&gt;) -&gt; () in Vidhik.CreateAccountVM.userAccountCreation(name: Swift.String, phoneNumber: Swift.String, isPrimaryContactWhatsapp: Swift.Bool, secondaryContact: Swift.String, isSecondaryContactWhatsapp: Swift.Bool, address: Swift.String, city: Swift.String, state: Swift.String, email: Swift.String, password: Swift.String, confirmPassword: Swift.String, callback: (Vidhik.ResponseType, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300">
+               </Location>
+               <Location
+                  uuid = "0B828D92-CCAD-4A70-8391-FB67DD38CD56 - d797edb4ceea7a5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;Vidhik.UserAccountCreationMutation.Data&gt;, Swift.Error&gt;) -&gt; () in Vidhik.CreateAccountVM.userAccountCreation(name: Swift.String, phoneNumber: Swift.String, isPrimaryContactWhatsapp: Swift.Bool, secondaryContact: Swift.String, isSecondaryContactWhatsapp: Swift.Bool, address: Swift.String, city: Swift.String, state: Swift.String, email: Swift.String, password: Swift.String, confirmPassword: Swift.String, callback: (Vidhik.ResponseType, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04244CCA-E9BE-4D4A-BC20-7D4759985672"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "userAccountCreation(name:phoneNumber:isPrimaryContactWhatsapp:secondaryContact:isSecondaryContactWhatsapp:address:city:state:email:password:confirmPassword:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04244CCA-E9BE-4D4A-BC20-7D4759985672 - c908884ba1cf92c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Vidhik.CreateAccountVM.userAccountCreation(name: Swift.String, phoneNumber: Swift.String, isPrimaryContactWhatsapp: Swift.Bool, secondaryContact: Swift.String, isSecondaryContactWhatsapp: Swift.Bool, address: Swift.String, city: Swift.String, state: Swift.String, email: Swift.String, password: Swift.String, confirmPassword: Swift.String, callback: (Vidhik.ResponseType, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295">
+               </Location>
+               <Location
+                  uuid = "04244CCA-E9BE-4D4A-BC20-7D4759985672 - d797edb4ceea7af1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;Vidhik.UserAccountCreationMutation.Data&gt;, Swift.Error&gt;) -&gt; () in Vidhik.CreateAccountVM.userAccountCreation(name: Swift.String, phoneNumber: Swift.String, isPrimaryContactWhatsapp: Swift.Bool, secondaryContact: Swift.String, isSecondaryContactWhatsapp: Swift.Bool, address: Swift.String, city: Swift.String, state: Swift.String, email: Swift.String, password: Swift.String, confirmPassword: Swift.String, callback: (Vidhik.ResponseType, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DCD73BA-CFDB-49B0-AEAE-2DAAB548A653"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
+            landmarkName = "createAccountApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DCD73BA-CFDB-49B0-AEAE-2DAAB548A653 - fb181a594cdfc010"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Vidhik.CreateAccountController.createAccountApi() -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "404"
+                  endingLineNumber = "404">
+               </Location>
+               <Location
+                  uuid = "4DCD73BA-CFDB-49B0-AEAE-2DAAB548A653 - 6e057437a97ac62b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Vidhik.ResponseType, Swift.String) -&gt; () in Vidhik.CreateAccountController.createAccountApi() -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "404"
+                  endingLineNumber = "404">
+               </Location>
+               <Location
+                  uuid = "4DCD73BA-CFDB-49B0-AEAE-2DAAB548A653 - ba162729b9995151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Int&gt;) -&gt; () in closure #1 (Vidhik.ResponseType, Swift.String) -&gt; () in Vidhik.CreateAccountController.createAccountApi() -&gt; ()"
+                  moduleName = "Vidhik"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dineshrajput/Desktop/Vidhik-iOS/Vidhik-iOS/Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "404"
+                  endingLineNumber = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF865257-AE8D-44AB-9217-257C1B2C109C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/Screen/LoginSignUp/ViewController/AccountCreation/CreateAccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "420"
+            endingLineNumber = "420"
+            landmarkName = "createAccountApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00CD4FE8-C6CD-424D-91CC-276BF8A455E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Vidhik/GraphQLNetworkSetUp/GraphQLEndPoints/Feeds/Feeds.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "GetFeedPostListQuery"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
